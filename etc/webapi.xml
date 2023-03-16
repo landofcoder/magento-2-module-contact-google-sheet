@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/contact-form/sheet" method="POST">
+        <service class="Lof\Contact2GoogleSheet\Api\ContactFormInterface" method="save"/>
+        <resources>
+            <resource ref="Lof_Contact2GoogleSheet::contact_save"/>
+        </resources>
+    </route>
+</routes>

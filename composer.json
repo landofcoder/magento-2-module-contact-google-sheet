@@ -1,0 +1,26 @@
+{
+    "name": "landofcoder/magento-contact-2-google-sheet",
+    "description": "Import Contact Data to Google SpreadSheet",
+    "require": {
+        "google/apiclient": "~2.13.1"
+    },
+    "homepage": "https://landofcoder.com",
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "info@landofcoder.com",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\Contact2GoogleSheet\\": ""
+        }
+    }
+}
